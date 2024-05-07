@@ -1,0 +1,83 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="styles.css">
+
+<title>Product Landing Page</title>
+
+<header id="header">
+<img id="header-img" 
+  src="https://static.vecteezy.com/system/resources/thumbnails/005/533/918/small/stock-finance-logo-template-accounting-logo-template-charts-icon-free-vector.jpg" 
+  alt="brand logo">
+   <nav id="nav-bar">
+  <a href="#Products" class="nav-link">Products</a>
+  <a href="#Prices" class="nav-link">Prices</a>
+  <a href="#AboutUs" class="nav-link">About Us</a>
+  </nav>
+</header>
+
+  <h1>Stock App</h1>
+
+
+
+
+
+<section id="Products">
+
+<h2>Products</h2>
+<iframe  
+src="https://youtu.be/2YBtspm8j8M?si=gW27X7klSFnAgog3"
+id="video"
+frameborder="0">        
+</iframe>
+
+</section>
+
+<section id="Prices">
+
+<h2>Prices</h2>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+  <input required 
+         id="email"
+         placeholder="email"
+         type="email"
+         name="email"/>
+  <input id="submit"
+         type="submit" />
+</form>
+
+</section>
+
+<section id="AboutUs">
+
+<h2 id="AboutUs">About Us</h2>
+
+</section>
+
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#nav-bar{
+  position: fixed;
+  top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+img {
+  display:flex;
+}
+
+** end of undefined **
+
